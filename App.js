@@ -1,18 +1,14 @@
-import Navbar from "./Navbar";
-import Header from "./Header";
-import Filters from "./Filters";
-import ShowcaseGrid from "./ShowcaseGrid";
-import "./App.css";
+import WelcomeBuddy from "./WelcomeBuddy";
+import CounterBuddy from "./CounterBuddy";
+import GreetingBuddy from "./GreetingBuddy";
 
 function App(){
   return (
     <div>
-      <Navbar />
-      <Header />
-      <Filters />
-      <showcaseGrid />
+    <WelcomeBuddy/>
+    <GreetingBuddy/>
+    <CounterBuddy/>
     </div>
   );
 }
-
 export default App;
