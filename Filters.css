@@ -1,0 +1,38 @@
+.filters {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: white;
+  border-bottom: 1px solid #eee;
+}
+
+.categories {
+  display: flex;
+  gap: 0.8rem;
+}
+
+.categories button {
+  padding: 0.4rem 0.8rem;
+  border-radius: 4px;
+  background: #f3f4f6;
+  color: #333;
+  font-weight: 500;
+}
+
+.categories button:hover {
+  background: #2563eb;
+  color: white;
+}
+
+.options {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+select {
+  padding: 0.4rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
